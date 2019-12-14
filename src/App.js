@@ -9,10 +9,10 @@ function App() {
         <form>
           <h2>Login with</h2><hr></hr>
         <label>User Name:-</label>
-        <input type="text" placeholder="enter name here"></input><br/>
-        <label>Password  :-</label>
-        <input type="text" placeholder="enter password here"></input><br/>
-        <button>submit</button></form>
+        <input type="text" placeholder="Enter name here"></input><br/>
+        <label>Password:-</label>
+        <input type="text" placeholder="Enter password here"></input><br/>
+        <button>Submit</button></form>
       </div>
       
     </div>
