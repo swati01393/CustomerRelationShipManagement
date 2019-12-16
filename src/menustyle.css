@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.menustyle{
+    width: 100%;
+    height: 100px;
+    background-color: #66aa66;
+    color: honeydew;
+}
+
+.menustyle ul{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.menustyle ul li{
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+}
