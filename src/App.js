@@ -1,8 +1,11 @@
 import React from 'react';
-import './App.css';
+;
 import Menu from './Menu';
 import About   from './About';
 import Contact from './Contact';
+import Resume from './Resume';
+import project from './project';
+
 import {BrowserRouter , Route, Switch} from 'react-router-dom';
 
 
@@ -16,6 +19,8 @@ function App() {
       <Route path="/" exact component={Home}/>
       <Route path="/about" component={About}/>
       <Route path="/contact" component={Contact}/>
+      <Route path="/Resume" component={Resume}/>
+      <Route path="/project" component={project}/>
 
       </Switch>
        
@@ -28,17 +33,15 @@ function App() {
 
 const Home = () =>{
   return(
-      
-         <div className="wrap">
-      <form>
-        <h2>Login with</h2><hr></hr>
-      <label>User Name:-</label>
-      <input type="text" placeholder="Enter name here"></input><br/>
-      <label>Password:-</label>
-      <input type="text" placeholder="Enter password here"></input><br/>
-      <button>Submit</button></form>
-    </div>
     
+      <div style={{width: '80%', margin: 'auto'}}>
+    <Grid className="demo-grid-ruler">
+        <Cell col={1}>12</Cell>
+
+      </Grid>
+    </div>
+      
+         
 
   )
 }
