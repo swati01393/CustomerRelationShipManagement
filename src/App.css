@@ -1,49 +1,43 @@
+
 .App {
-  box-sizing:border-box;
-  
+    box-sizing: border-box;
 }
 body{
-  background-color: brown;
+  background-color:#fcf5f5;
   font-family: sans-serif;
 
 }
 
-.wrap{
-  max-width:400px;
-  margin:auto;
-  margin-top:50px;
-  padding:20px;
-  font-family:sans-serif;
-  background: rgb(127, 219, 223);
-  border-radius: 10px;
+.wrap {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    font-family: sans-serif;
+    background: #fcf5f5;
+    border: solid gray;
+    border-width: 1px 1px 2px 2px;
+    border-radius:0px;
+    
 }
-.wrap h2{
-  font-size:2em;
-  text-align: center;
+    .wrap h1, h2,h3,p{
+        margin:5px;
+        padding:5px;
+        }
+hr{
+    margin:10px;
 }
+   
+    
 form{
   margin-top:30px;
 }
-input[type=text],input[type=password]{
-  width: 200px;
-  
-  padding: 10px;
-  margin-bottom: 15px;
-  font-size:17px;
-  border-radius: 5px;
-  border:2px solid gray;
 
-}
-label{
-  font-size:20px;
-  font-weight: bold;
-  padding: 10px;
 
-}
 
 button{
   padding: 10px;
-  width: 100px;
+  width: 200px;
   box-sizing: border-box;
   border:none;
   font-size: 1.4em;
@@ -53,7 +47,7 @@ button{
   
 }
 button:hover{
-  background:rgba(134, 186, 202, 0.6);
+  background:#606060;
 }
 .App-link {
   color: #61dafb;
